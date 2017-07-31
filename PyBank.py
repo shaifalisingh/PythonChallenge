@@ -31,18 +31,13 @@ mint = 0
 for line in temp:
     try:
         p = int(line.split(",")[1])
-
         totaln += 1
-        # maxt = max(maxt,p)
-        # mint = min(mint,p)
         if p > maxt:
             maxt = p
             maxdate = line.split(",")[0]
         if p < mint:
             mint = p
             mindate = line.split(",")[0]
-        # else:
-        #     print('whatever')
     except:
         pass
 print("Greatest Increase in Revenue:",maxdate,maxt)
