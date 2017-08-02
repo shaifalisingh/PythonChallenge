@@ -44,7 +44,8 @@ print("Greatest Increase in Revenue:",maxdate,maxt)
 print("Greatest Decrease in Revenue:",mindate,mint)
 
 
-with open('Output.txt', 'w') as f:
+#Text file for the Output in the same folder as Code
+with open('Output PyBank.txt', 'w') as f:
     f.write("Financial Analysis\n")
     f.write("-----------------\n")
     f.write("Total Months: {}\n".format(value))

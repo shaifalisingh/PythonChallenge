@@ -35,7 +35,7 @@ print('Average Letter Count: ',average_word_length)
 print('Average Sentence Length:',average_wordcount)
 
 # Printing the output in a text file "output -para.txt"
-with open('output- Para.txt', 'w') as f:
+with open('Output-PyPara.txt', 'w') as f:
 	f.write("Paragraph Analysis\n")
 	f.write("-----------------\n")
 	f.write('Approximate Word Count: {}\n'.format(num_words))
